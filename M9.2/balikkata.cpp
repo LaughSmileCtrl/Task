@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string.h>
-#include <array>
 
 using namespace std;
 
