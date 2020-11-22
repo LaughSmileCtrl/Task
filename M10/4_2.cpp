@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void tabelView(string namaJurusan[3], int data[][4], int tahun)
+void tabelView(string namaJurusan[3], int data[][4])
 {
     int max = 0;
     for(int i = 0; i < 3; i++)
@@ -14,7 +14,7 @@ void tabelView(string namaJurusan[3], int data[][4], int tahun)
     }
 
     printf("| %-*s | %-*s|\n", max, "Nama Jurusan", 6*4+2, "Tahun");
-    printf("| %-*s | %i | %i | %i | %i |\n", max, "", tahun++, tahun++, tahun++, tahun++);
+    printf("| %-*s | %d | %d | %d | %d |\n", max, "", 1992, 1993, 1994, 1995);
     printf("|%s|%s|\n", "------------------------", "---------------------------");
 
     for (int i = 0; i < 3; i++)
@@ -31,6 +31,6 @@ int main()
     int data[3][4] = {{35, 45, 80, 120}, {100, 110, 70, 101}, {10, 15, 20, 17}};
     string namaJurusan[] = {"Teknik Informatika", "Management Informatika", "Teknik Komputer"};
 
-    tabelView(namaJurusan, data, 1992);
+    tabelView(namaJurusan, data);
     return 0;
 }
