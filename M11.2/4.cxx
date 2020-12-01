@@ -51,14 +51,14 @@ int main()
     for (int i = 0; i < mhs; i++)
     {
         printf("%3d|", i+1);
-        cout << char(nMhs[i])/char(matkul) << endl;
+        cout << nMhs[i]/(char(matkul)*1.0) << endl;
     }
     
     cout << "\n\nrata-rata nilai per matkul" << endl;
     for (int i = 0; i < matkul; i++)
     {
         printf("%3d|", i+1);
-        cout << char(nMatkul[i])/char(mhs) << endl;
+        cout << nMatkul[i]/(char(mhs)*1.0) << endl;
     }
     
 
