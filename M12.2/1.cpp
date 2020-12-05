@@ -20,7 +20,11 @@ int main()
     char word[] = "POLITEKNIK";
     int n = (sizeof(word)/sizeof(char))-1;
 
-    segitiga(word, n);
+    string apa = "POLITEKNIK";
+    cout << n<< endl;
+
+
+    // segitiga(word, n);
 
     return 0;
 }
