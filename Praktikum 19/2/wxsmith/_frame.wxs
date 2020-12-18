@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="_Frame">
+		<id_arg>0</id_arg>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>184,152</pos>
+			<bg>#3F4042</bg>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Sisi Tegak</label>
+				<pos>24,104</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+				<pos>112,96</pos>
+				<size>-1,-1</size>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_CENTRE|wxBORDER_SIMPLE</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Sisi Mendatar</label>
+				<pos>24,152</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+				<pos>112,144</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_CENTRE|wxBORDER_SIMPLE</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+				<label>Sisi Miring</label>
+				<pos>24,296</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+				<pos>112,288</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_READONLY|wxTE_CENTRE</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+				<label>Keliling</label>
+				<pos>24,344</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+				<pos>112,336</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_READONLY|wxTE_CENTRE</style>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+				<label>Hitung</label>
+				<pos>112,208</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#3F4042</bg>
+				<handler function="OnButton1Click" entry="EVT_BUTTON" />
+			</object>
+		</object>
+	</object>
+</wxsmith>

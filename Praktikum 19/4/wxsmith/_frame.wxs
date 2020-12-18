@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="_Frame">
+		<centered>1</centered>
+		<id_arg>0</id_arg>
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>104,88</pos>
+			<bg>#3F4042</bg>
+			<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+				<label>Fahrenheit to Celcius</label>
+				<pos>128,192</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#3F4042</bg>
+				<handler function="OnButton1Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+				<label>Reamur to Celcius</label>
+				<pos>136,280</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#3F4042</bg>
+				<handler function="OnButton2Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+				<label>Kelvin to Celcius</label>
+				<pos>144,232</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#3F4042</bg>
+				<handler function="OnButton3Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Fahrenheit</label>
+				<pos>80,144</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+				<pos>152,136</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_CENTRE|wxBORDER_SIMPLE</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Reamur</label>
+				<pos>80,144</pos>
+				<hidden>1</hidden>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+				<label>Kelvin</label>
+				<pos>80,144</pos>
+				<hidden>1</hidden>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+				<label>Celcius</label>
+				<pos>72,336</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+				<pos>144,328</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_READONLY|wxTE_CENTRE</style>
+			</object>
+		</object>
+	</object>
+</wxsmith>

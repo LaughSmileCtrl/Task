@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="_Frame">
+		<object class="wxPanel" name="ID_PANEL1" variable="Panel1" member="yes">
+			<pos>208,184</pos>
+			<bg>#3F4042</bg>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Jam</label>
+				<pos>120,80</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+				<pos>176,72</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_CENTRE|wxBORDER_SIMPLE</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Menit</label>
+				<pos>112,136</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+				<pos>176,128</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_CENTRE|wxBORDER_SIMPLE</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT3" variable="StaticText3" member="yes">
+				<label>Detik</label>
+				<pos>112,192</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL3" variable="TextCtrl3" member="yes">
+				<pos>176,184</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_CENTRE|wxBORDER_SIMPLE</style>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT4" variable="StaticText4" member="yes">
+				<label>Total Detik</label>
+				<pos>88,336</pos>
+				<fg>#BFBFBF</fg>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL4" variable="TextCtrl4" member="yes">
+				<pos>176,328</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#1F1F1F</bg>
+				<style>wxTE_READONLY|wxTE_CENTRE|wxBORDER_SIMPLE</style>
+			</object>
+			<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+				<label>Hitung</label>
+				<pos>176,248</pos>
+				<fg>#BFBFBF</fg>
+				<bg>#3F4042</bg>
+				<handler function="OnButton1Click" entry="EVT_BUTTON" />
+			</object>
+		</object>
+	</object>
+</wxsmith>
